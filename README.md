@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Name
 
 > Project description
@@ -37,3 +38,6 @@ npm install -g webpack
 npm install
 ```
 
+=======
+# Rebekah's proxy
+>>>>>>> 95b055d59fc0bb61dac7fb0a102cdf8689172271
