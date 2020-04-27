@@ -1,10 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: {
-    reviews: './client/components/reviews.jsx',
-    shippingReturns: './client/components/shippingReturns.jsx'
-  },
+  entry: './client/app.jsx',
   module: {
     rules: [
       {
@@ -20,11 +17,19 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
       }
     ]
   },
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, './public/dist')
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, './public/dist'),
   }
 }
