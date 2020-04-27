@@ -1,6 +1,6 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-import inventoryImage from '../public/dist/nike-inventory.png';
+// import inventoryImage from '../public/dist/nike-inventory.png';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -38,7 +38,7 @@ export default class App extends React.Component {
           <ProductImages productDetails={this.state.styleDetails}/>
         </div>
         <div id="product-details">
-          <img src={inventoryImage}></img>
+          <Styles />
           <div className='breaker-line'>
             <Description productDetails={this.state.styleDetails} className="description"/>
           </div>

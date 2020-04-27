@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nike Mock </title>
+  </head>
+
+  <body>
+    <header id="main-header">
+      <img src="https://nikeproxy.s3.us-east-2.amazonaws.com/nike-header.webp">
+    </header>
+    <div id="app"></div>
+    <footer>
+      <img src="https://nikeproxy.s3.us-east-2.amazonaws.com/nike-footer.webp">
+    </footer>
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="https://nikeproxy.s3.us-east-2.amazonaws.com/bundle.min.js"></script>
+    <script src="https://nikeproxy.s3.us-east-2.amazonaws.com/imagesBundle.js"></script>
+    <script src="https://nikeproxy.s3.us-east-2.amazonaws.com/inventoryBundle.js"></script>
+    <script src="https://nikeproxy.s3.us-east-2.amazonaws.com/description.min.js"></script>
+    <script src="https://nikeproxy.s3.us-east-2.amazonaws.com/reviewsBundle.min.js"></script>
+    <script src="https://nikeproxy.s3.us-east-2.amazonaws.com/shippingReturnsBundle.min.js"></script>
+
+
+    <script>
+      ReactDOM.render(React.createElement(App, {}, React.createElement(ProductImages), React.createElement(Styles), React.createElement(Description), React.createElement(ShippingReturns), React.createElement(Reviews)), document.getElementById('app'))
+    </script>
+
+  </body>
+</html>
