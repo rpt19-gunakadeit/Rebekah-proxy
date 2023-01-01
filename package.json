@@ -14,7 +14,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.3.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "file-loader": "^6.0.0",
@@ -24,11 +24,11 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "request": "^2.88.2",
-    "webpack": "^4.42.1"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^5.0.1"
   },
   "version": "1.0.0",
   "main": ".eslintrc.js",
